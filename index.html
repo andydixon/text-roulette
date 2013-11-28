@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Text Roulette - No prizes, just the fun of wasting some SMS- Powered by Textlocal</title>
+    <script src="socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Fresca' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table width='100%'>
+    <tr>
+        <td width='530'>
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </td>
+        <td>
+            <div id='players' class='stats'>
+                <h2>Current Bets</h2></div>
+            <div id='lastWinners' class='stats'>
+                <h2>Last Game Winners</h2>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan='2' style='position:relative;'>
+            <div style='width:500px;float:left;'>
+                <h1 style='margin-top:0px;'>Text your bet to 07786 207497</h1>
+            </div>
+            <div style='width:250px; position:absolute;left:540px;text-align:right;'>
+                Powered by <a href='http://www.textlocal.com?tlrx=6040'>Textlocal</a><br/>
+                Developed by <a href='http://www.twitter.com/andydixon'>@andydixon</a>
+            </div>
+        </td>
+    </tr>
+</table>
+<div style='position: absolute; top:40px;left:400px;text-align:center;width:140px;margin-bottom:0px;'><h2>Next spin:</h2>
+
+    <h1 style='margin-top:0px;'><span id='timer'>-:--</span></h1></div>
+</body>
+<script type='text/javascript' src='roulette.js'></script>
+</html>

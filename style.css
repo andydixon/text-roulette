@@ -1,0 +1,34 @@
+body {
+    background: url(felt.jpg);
+    color: white;
+}
+
+* {
+    font-family: 'Fresca', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1em;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    text-transform: none;
+    text-indent: 0ex;
+}
+
+.stats {
+    background: white;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 220px;
+    margin-top: 5px;
+    border: 2px gray solid;
+    overflow: auto;
+}
+
+.stats p {
+    padding: 0;
+    line-height: 1em;
+    margin: 0;
+}
